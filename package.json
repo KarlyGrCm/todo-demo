@@ -1,0 +1,22 @@
+{
+  "name": "todo-list-app",
+  "version": "1.0.0",
+  "description": "TODO List application example",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "nightwatch": "^0.9.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mohca",
+    "start": "node_modules/.bin/nightwatch tests/e2e/todo.spec.js"
+  },
+  "author": "Karla Garcia <karla.garcia.campos@gmail.com>",
+  "license": "ISC"
+}
